@@ -1,0 +1,41 @@
+package ar.edu.unju.fi.model;
+
+public class Alumno {
+	
+	private Integer legajo;
+	private String apellido;
+	private String nombre;
+	
+	public Alumno() {}
+
+	public Integer getLegajo() {
+		return legajo;
+	}
+
+	public void setLegajo(Integer legajo) {
+		this.legajo = legajo;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	@Override
+	public String toString() {
+		return "Alumno [legajo=" + legajo + ", apellido=" + apellido + ", nombre=" + nombre + "]";
+	}
+	
+	
+}
